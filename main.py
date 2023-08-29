@@ -12,7 +12,7 @@ password = ''
 ## Initiate the webdriver
 chrome_driver_path = ''
 driver = webdriver.Chrome(service=ChromeService(chrome_driver_path))
-driver.get(url')
+driver.get(url)
 driver.find_element(By.NAME, "username").send_keys(username)
 driver.find_element(By.NAME, "password").send_keys(password)
            
@@ -21,4 +21,4 @@ driver.find_element(By.CSS_SELECTOR, "div[class='blue_button ']").click()
 
 
 ## Get the webpage
-driver.get(url')    
+driver.get(url)    
