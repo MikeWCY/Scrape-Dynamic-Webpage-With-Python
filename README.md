@@ -6,4 +6,5 @@ It is convenient to scrape a webpage with bs4 in python. But in some cases, the 
 conda install selenium
 <br/> 
 brew install --cask chromedriver
-
+## Navigating
+Check https://selenium-python.readthedocs.io/navigating.html to find more information on navigating with find_element
